@@ -2916,7 +2916,8 @@ border: 1px solid black;
         font-size: 14px;
     }
 }
-/* Customer Care Section - Alternate Design */
+
+/* Base Styles */
 #customer-care {
     background: linear-gradient(135deg, #ffffff 50%, #f0f4f8 50%);
     padding: 60px 20px;
@@ -2967,7 +2968,7 @@ border: 1px solid black;
   }
   
   .btn-primary:hover {
-    background-color:#fb5951;
+    background-color:white;
   }
   
   .btn-secondary {
@@ -3012,5 +3013,90 @@ border: 1px solid black;
     font-size: 1.1rem;
     color: #555;
     margin: 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .customer-care-wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .left-section, .right-section {
+      flex: 1 1 100%;
+      padding: 15px;
+      text-align: center; /* Center-align content for smaller screens */
+    }
+  
+    .left-section h2 {
+      font-size: 2rem;
+    }
+  
+    .left-section p {
+      font-size: 1.1rem;
+    }
+  
+    .btn-primary, .btn-secondary {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+      margin: 10px 5px;
+    }
+  
+    .support-info {
+      gap: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .left-section h2 {
+      font-size: 1.8rem;
+    }
+  
+    .left-section p {
+      font-size: 1rem;
+    }
+  
+    .btn-primary, .btn-secondary {
+      font-size: 0.85rem;
+      padding: 10px 15px;
+    }
+  
+    .info-box {
+      padding: 10px;
+    }
+  
+    .info-box i {
+      font-size: 1.8rem;
+    }
+  
+    .info-box p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .left-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .left-section p {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+  
+    .btn-primary, .btn-secondary {
+      font-size: 0.8rem;
+      padding: 8px 12px;
+    }
+  
+    .info-box {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .info-box i {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
   }
   
