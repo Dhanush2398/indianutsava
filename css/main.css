@@ -225,7 +225,7 @@ menu, ol, ul {
 }
 
 /** Typo Colors **/
-.border-color: { color: #e5e5e5;}
+.border-color{ color: #e5e5e5;}
 .bodyfont-color { color: var(--base-bodyfont-color);}
 .headingfont-color { color: var(--base-headingfont-color); }
 
@@ -3162,5 +3162,366 @@ border: 1px solid black;
     .pricing-container {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    display: none;
+  }
+  
+  .goog-te-gadget-simple {
+    background-color: #198754 !important;
+    color: white !important;
+    padding: 0px 0px;
+  
+  }
+  
+  #google_translate_element {
+    z-index: 9991 !important;
+    /* position: fixed;
+    right: 40px;
+    top: 30px; */
+    color: white !important;
+  }
+  
+  .goog-te-gadget-simple {
+    border-left: 1px solid #9b9b9b !important;
+    border-top: 1px solid #9b9b9b !important;
+    border-bottom: 1px solid #9b9b9b !important;
+    border-right: 1px solid #9b9b9b !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  
+  .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed {
+    color: white !important;
+    font-size: 10px !important;
+    padding: 0 !important;
+  }
+  
+  .goog-te-gadget-icon {
+    display: none;
+  }
+  
+  .g-translate {
+    background-color: #ff5e13;
+    padding: 4px 8px 4px 0;
+  }
+  
+  
+.buy-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    padding: 20px;
+}
+
+.buy-card {
+    background: #fff;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.buy-card h2 {
+    margin-bottom: 20px;
+    color: #05255F;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.input-group i {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    font-size: 16px;
+}
+
+.input-group input, .input-group select {
+    width: 100%;
+    padding: 12px 40px;
+    border: 2px solid #ff7e5f;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.input-group input:focus, .input-group select:focus {
+    border-color: #05255F;
+}
+
+.qr-code {
+    text-align: center;
+    margin: 18px 0;
+}
+
+.qr-code img {
+    width: 120px;
+    border-radius: 6px;
+}
+
+.buy-button {
+    width: 100%;
+    padding: 14px;
+    background: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.buy-button:hover {
+    background: #e86c50;
+}
+
+.input-group select:focus option {
+    background: #fff;
+    color: #000;
+}
+
+.input-group select option {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+.input-group select option:last-child {
+    border-bottom: none;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 10%;
+    background: #f5f5f5;
+    gap: 50px;
+}
+
+
+.about-content {
+    flex: 1;
+    max-width: 550px;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #05255F;
+    margin-bottom: 20px;
+}
+
+.about-content h2 span {
+    color: #FF7E5F;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+
+.values-section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px 10%;
+    background: white;
+    gap: 30px;
+}
+
+.values-box {
+    flex: 1;
+    padding: 30px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.values-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.values-box i {
+    font-size: 40px;
+    color: #FF7E5F;
+    margin-bottom: 15px;
+}
+
+.values-box h3 {
+    font-size: 22px;
+    color: #05255F;
+    margin-bottom: 15px;
+}
+
+.values-box p,
+.values-box ul {
+    font-size: 16px;
+    color: #05255F;
+    line-height: 1.6;
+}
+
+.values-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.values-box ul li {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width: 900px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 8%;
+    }
+
+    .values-section {
+        flex-direction: column;
+        padding: 40px 8%;
+    }
+
+    .values-box {
+        margin-bottom: 20px;
+    }
+}
+
+
+.faq-container {
+    width: 90%; 
+    max-width: 700px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.faq-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #05255F;
+}
+
+
+.faq-item {
+    background: #f9f9f9;
+    margin: 10px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.3s;
+    width: 100%;
+}
+
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #05255F;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+
+.faq-question:hover {
+    background: #FF7E5F;
+    color: white;
+}
+
+
+.faq-question i {
+    transition: transform 0.3s ease;
+}
+
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    font-size: 14px;
+    color: #05255F;
+    border-top: 1px solid #ddd;
+    background: #FF7E5F;
+    transition: 0.3s ease;
+}
+
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+
+.faq-item.active .faq-question i {
+    transform: rotate(180deg);
+}
+
+
+@media (max-width: 768px) {
+    .faq-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .faq-question {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .faq-answer {
+        font-size: 13px;
+        padding: 12px;
     }
 }

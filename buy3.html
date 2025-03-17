@@ -24,7 +24,18 @@
 </head>
 
 <body>
-
+    <script>
+        function googleTranslateElementInit() {
+        var translator = new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages : 'en,kn',
+        autoDisplay: false,
+        multilanguagePage: false,
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+          }
+        </script>
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <!--page start-->
     <div class="page">
        
@@ -90,7 +101,9 @@
                                                 <a href="#" class="mega-menu-link">Packages</a>
                                                 <ul class="mega-submenu">
                                                     <li><a href="package1.html">Package 1</a></li>
-                                                    <li><a href="package2.html">Package 2</a></li>                                                </ul>
+                                                    <li><a href="package2.html">Package 2</a></li>   
+                                                    <li><a href="package3.html">Package 3 </a></li>                                             
+                                                </ul>
                                             </li>
                                             <li class="mega-menu-item">
                                                 <a href="contact-us.html">Contact us</a>
@@ -105,7 +118,7 @@
             </div>
             <!-- site-header-menu end-->
         </header><!--header end-->
-
+        <div class="text-end g-translate"><div id="google_translate_element"></div></div>
         <!-- page-title -->
         <div class="cmt-page-title-row bg-base-dark cmt-bg cmt-bgimage-yes clearfix">
             <div class="cmt-titlebar-wrapper-bg-layer cmt-bg-layer"></div>
@@ -114,14 +127,13 @@
                     <div class="col-lg-12">
                         <div class="cmt-page-title-row-inner">
                             <div class="page-title-heading">
-                                <h2 class="title">Shipment & Delivery</h2>
+                                <h2 class="title">Buy Package 3 - ₹1000</h2>
                             </div>
                             <div class="breadcrumb-wrapper">
                                 <span>
                                     <a title="Homepage" href="index.html">Home</a>
                                 </span>
-                                <span>Shipment & Delivery</span>
-                            
+                                <span>Buy Package3</span>
                             </div>
                         </div>
                     </div>
@@ -134,40 +146,173 @@
 
     <!--site-main start-->
     <div class="site-main">
+        <div class="buy-container">
+            <div class="buy-card">
+                <h2>Buy Package 3</h2>
+                <form>
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-phone"></i>
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <input type="text" placeholder=" Address" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-credit-card"></i>
+                        <select required>
+                            <option value="" disabled selected>Choose Payment Option</option>
+                            <option value="upi">UPI</option>
+                            <option value="credit">Credit Card</option>
+                            <option value="debit">Debit Card</option>
+                            <option value="netbanking">Net Banking</option>
+                        </select>
+                    </div>
+                    <div class="qr-code">
+                        <img src="images/qr.jpg" alt="Scan to Pay">
+                    </div>
+                    <button type="submit" class="buy-button">Proceed to Buy</button>
+                </form>
+            </div>
+        </div>
 
-        <div class="delivery-full-width">
-            <h1> SHIPMENT & Delivery</h1>
-            <p>We're proud to offer shipping on all our products! Tracking and secured checkout are available for all orders.</p>
-            <h4>Processing Time:</h4>
-            <p>We do our best to process & ship all orders as soon as possible. Most orders are processed within 24-72 hours.</p>
-            <h4>Tracking your order:</h4>
-            <p>All orders include tracking docket & courier information that is normally updated on same day after the order has been shipped. You can also track your order using your tracking number through concerned courier website.</p>
-            <h4>Shipping option:</h4>
-            <p>We have third party courier agent services Pan India & also provide option to pick products from nearby store of Indus Viva. <br>
-                 We have end mile delivery to all our customers Pan India, as per our courier agent end point. Distributors/Customers are responsible to collect their product from concerned courier end point hub, if services are not available.</p>
-                 <h4>Handling cost:</h4>
-                 <p>Our Customers' satisfaction is our top priority so we cover any case of exceptional delay or even loss in transit. If you have entered a wrong shipping information, you are not eligible for re shipment or refund.</p>
-                 <h4>My order hasn't arrived:</h4>
-                 <p> If you haven't received your order within 10 business days, you can please raise a query by calling or mailing us at toll-free 1800 103 4916 <br>
-                     Distributors' complaints are received through our Virtual Office (internal communication system)  <br>
-                     Online purchase complaints are received through our website</p>
+            <section class="cmt-row conatct-section clearfix">
+                <div class="container">
+                    <!-- row -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- section-title -->
+                            <div class="section-title title-style-center_text">
+                                <div class="title-header">
+                                    <h3>Let us Know How We can Help You</h3>
+                                </div>
+                            </div><!-- section-title end -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <!-- featured-icon-box -->
+                            <div class="featured-icon-box icon-align-before-content p-25 bg-base-white border border-color border-rad_5">
+                                <div class="featured-icon">
+                                    <div class="cmt-icon cmt-icon_element-fill cmt-icon_element-color-darkgrey cmt-icon_element-size-sm cmt-icon_element-style-round">
+                                        <i class="flaticon flaticon-phone-call"></i>
+                                    </div>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h2 class="fs-15 fw-normal bodyfont-color mb-5">Phone Number</h2>
+                                        <h3 class="fs-24 text-base-skin mb-0">+91 99999 88888</h3>
+                                    </div>
+                                </div>
+                            </div><!-- featured-icon-box end -->
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <!-- featured-icon-box -->
+                            <div class="featured-icon-box icon-align-before-content p-25 bg-base-white border border-color border-rad_6">
+                                <div class="featured-icon">
+                                    <div class="cmt-icon cmt-icon_element-fill cmt-icon_element-color-darkgrey cmt-icon_element-size-sm cmt-icon_element-style-round">
+                                        <i class="flaticon flaticon-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h2 class="fs-15 fw-normal bodyfont-color mb-0">Any Quetions? Email us</h2>
+                                        <h3 class="fs-15 fw-500 mb-0">indianutsava@gmail.com</h3>
+                                    </div>
+                                </div>
+                            </div><!-- featured-icon-box end -->
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <!-- featured-icon-box -->
+                            <div class="featured-icon-box icon-align-before-content p-25 bg-base-white border border-color border-rad_6">
+                                <div class="featured-icon">
+                                    <div class="cmt-icon cmt-icon_element-fill cmt-icon_element-color-darkgrey cmt-icon_element-size-sm cmt-icon_element-style-round">
+                                        <i class="flaticon flaticon-pin"></i>
+                                    </div>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h2 class="fs-15 fw-500 mb-0">Nelamangala</h2>
+                                    </div>
+                                </div>
+                            </div><!-- featured-icon-box end -->
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-                     <h1>PAYMENT MODE POLICY</h1>
+            <section class="cmt-row padding_top_zero-section bg-layer-equal-height clearfix">
+                <div class="container">
+                    <!-- row end -->
+                    <div class="row align-items-center">
+                        <div class="col-lg-5">
+                            <div class="cmt-bg cmt-col-bgcolor-yes bg-base-dark cmt-bg border-rad_5 overflow-hidden spacing-6">
+                                <div class="cmt-col-wrapper-bg-layer cmt-bg-layer bg-base-dark">
+                                    <div class="cmt-col-wrapper-bg-layer-inner"></div>
+                                </div>
+                                <div class="layer-content">
+                                    <!-- section title -->
+                                    <div class="section-title">
+                                        <div class="title-header">
+                                            <h2 class="title">Get in Touch with Us</h2>
+                                        </div>
+                                        <div class="title-desc">
+                                            <p>We’d love to hear from you! Whether you have questions, feedback, or need assistance, feel free to reach out.</p>
+                                        </div>
+                                    </div><!-- section title end -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="pl-10 res-991-pl-0 res-991-pt-40">
+                                <!-- section title -->
+                                <div class="section-title">
+                                    <div class="title-header">
+                                        <h2 class="title">Contact Us</h2>
+                                    </div>
+                                </div><!-- section title end -->
+                               <form action="#" class="query_form wrap-form clearfix" method="post">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>
+                                                <span class="text-input"><input name="name" type="text" value="" placeholder="First Name" required="required"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label>
+                                                <span class="text-input"><input name="name" type="text" value="" placeholder="Last Name" required="required"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label>
+                                                <span class="text-input"><input name="email" type="text" value="" placeholder="Email Address" required="required"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label>
+                                                <span class="text-input"><input name="phone" type="text" value="" placeholder="Phone" required="required"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label>
+                                                <span class="text-input"><textarea name="message" rows="4" placeholder="Message goes here" required="required"></textarea></span>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-12">
+                                           <button class="submit cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark mt-5" type="submit"><i class="icon-right"></i><span>Send Message</span></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-                     <p>Indian Utsava offers multiple payment methods. For all types of online mode of payments, you can be assured that indianutsava's trusted payment gateway partners use secure encryption technology to keep your transactions details confidential.</p>
-                     <h4>We accept payments made by credit/debit cards issued in India.</h4>
-                     <p>1. We accept payments made using Visa, MasterCard and Maestro debit cards. To pay using your credit/debit card, you will need to put in your credit/debit card number, expiry date, and three digit CVV number (found on the back side of your card). After entering these details, you will be redirected to the bank's page for entering the online 3D secure password or the online password issued by your bank to complete the payment. <br>
-                        All credit card and debit card payments on Indus Viva are processed through secure and trusted payment gateways managed by leading banks. Banks now use the 3D secure password service for online transactions, providing an additional layer of security through identity verification.</p>
-
-             <p>2. We use PayU as our payment gateway partner to facilitate debit/credit card, upi payments, net banking payments. For more details please refer to https://payu.in</p>
-
-             <p>3. For all transactions routed through PayU payment gateway, refunds of money is reject to policies, procedures and SOP's adopted by PayU payment gateway as per their standard terms and conditions mentioned in their webstie.</p>
-
-             <p>4. There are No hidden charges when you purchase Indus Viva products. The price you see on the product page is exactly what you would pay.</p>
-
-             <p>5. All refunds are subject to refund policy.</p>
-
-        </div> 
 
     </div><!--site-main end-->
 
@@ -200,7 +345,7 @@
                             <div class="widget widget_cta clearfix">
                                 <h4>+91 99999 88888</h4>
                                 <ul class="widget_contact_wrapper">
-                                    <li><i class="flaticon-envelope"></i><a href="mailto:indianutsava@gmail.com">indianutsava@gmail.com</a>Online Support</li>
+                                    <li><i class="flaticon-envelope"></i><a href="mailto:info@example.com.com">indianutsava@gmail.com</a>Online Support</li>
                                     <li><i class="flaticon-pin"></i>Nelamangala</li>
                                 </ul>
                             </div>
@@ -220,9 +365,9 @@
                                 <div class="widget_nav_menu clearfix"  >
                                    <h3 class="widget-title">Packages</h3>
                                    <ul class="menu-footer-quick-links links-2">
-                                        <li><a href="package1.html">Package 1</a></li>
-                                        <li><a href="package2.html">Package 2</a></li>
-                                        <li><a href="package3.html">Package 3</a></li>
+                                    <li><a href="package1.html">Package 1</a></li>
+                                    <li><a href="package2.html">Package 2</a></li>
+                                    <li><a href="package3.html">Package 3</a></li>
                                      
                                     </ul>
                                 </div>

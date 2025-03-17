@@ -553,3 +553,13 @@
     
   
   });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const faqs = document.querySelectorAll(".faq-item");
+
+    faqs.forEach(faq => {
+        faq.addEventListener("click", function () {
+            this.classList.toggle("active");
+        });
+    });
+});
