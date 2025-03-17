@@ -156,35 +156,33 @@
     <div class="site-main">
         <div class="buy-container">
             <div class="buy-card">
+                
                 <h2>Buy Package 2</h2>
-                <form>
-                    <div class="input-group">
-                        <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Full Name" required>
-                    </div>
-                    <div class="input-group">
-                        <i class="fas fa-phone"></i>
-                        <input type="tel" placeholder="Phone Number" required>
-                    </div>
-                    <div class="input-group">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <input type="text" placeholder=" Address" required>
-                    </div>
-                    <div class="input-group">
-                        <i class="fas fa-credit-card"></i>
-                        <select required>
-                            <option value="" disabled selected>Choose Payment Option</option>
-                            <option value="upi">UPI</option>
-                            <option value="credit">Credit Card</option>
-                            <option value="debit">Debit Card</option>
-                            <option value="netbanking">Net Banking</option>
-                        </select>
-                    </div>
-                    <div class="qr-code">
-                        <img src="images/qr.jpg" alt="Scan to Pay">
-                    </div>
-                    <button type="submit" class="buy-button">Proceed to Buy</button>
-                </form>
+                <div class="qr-code">
+                <p>Payment QR Code</p>
+                    <img src="images/qr.jpg" alt="Scan to Pay">
+                </div>
+                <form action="buy.php" method="post">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Name" name="name" required>
+                </div>
+                <input type="hidden" value="Package 2 500RS" name="package">
+                <div class="input-group">
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" placeholder="Phone Number" name="phone" required>
+                </div>
+                 <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="Email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" placeholder="Address" name="address" required>
+                </div>
+                
+                <button type="submit" class="buy-button">Proceed to Buy</button>
+            </form>
             </div>
         </div>
 
@@ -283,7 +281,7 @@
                                         <h2 class="title">Contact Us</h2>
                                     </div>
                                 </div><!-- section title end -->
-                               <form action="#" class="query_form wrap-form clearfix" method="post">
+                             <form action="mail.php" class="query_form wrap-form clearfix" method="post">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <label>
@@ -292,7 +290,7 @@
                                         </div>
                                         <div class="col-md-6">
                                             <label>
-                                                <span class="text-input"><input name="name" type="text" value="" placeholder="Last Name" required="required"></span>
+                                                <span class="text-input"><input name="last_name" type="text" value="" placeholder="Last Name" required="required"></span>
                                             </label>
                                         </div>
                                         <div class="col-md-6">
