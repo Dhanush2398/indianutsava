@@ -1838,9 +1838,10 @@ nav.main-menu ul {
 }
 .footer.text-base-white,
 .footer.text-base-white a {
-    color: rgba(255, 255, 255, .65);
+    color: rgba(255, 255, 255, 0.685);
     position: relative;
     z-index: 1;
+    font-size: 14px;
 }
 .footer.text-base-white a:hover {
     color: var(--base-skin) !important;
@@ -3525,3 +3526,4 @@ border: 1px solid black;
         padding: 12px;
     }
 }
+
