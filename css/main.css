@@ -3624,3 +3624,8 @@ border: 1px solid black;
 .slide-content p {
     line-height: 1.4;
 }
+
+:root {
+    --swiper-navigation-size: 26px !important; 
+  
+}
