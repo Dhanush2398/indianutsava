@@ -3528,7 +3528,7 @@ div:hover > .cmt-box-view-overlay:before, div:hover > .cmt-box-view-content-inne
 ==================================================================== ***/
 .cmt_floting_customsett {
     position: fixed;
-    top: 50%;
+    top: 75%;
     right: 0;
     padding: 3px 0 10px;
     margin: -89px 0 0;
