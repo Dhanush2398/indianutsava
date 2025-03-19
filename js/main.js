@@ -475,7 +475,7 @@
   });
       $(document).ready(function() {
       var e = '<div class="cmt_floting_customsett">'+
-                  '<a href="support.html" class="tmtheme_fbar_icons"><i class="fa fa-headphones"></i><span>Support</span></a>'+
+                  '<a href="contact-us.html" class="tmtheme_fbar_icons"><i class="fa fa-headphones"></i><span>Support</span></a>'+
                   '<a href="#" class="tmtheme_fbar_icons"><i class="fa-brands fa-whatsapp"></i><span>Whatsapp</span></a>'+
                   '<a href="#" class="tmtheme_fbar_icons"><i class="fa-regular fa-envelope"></i><span class="buy_link">Message<span></span></span></a>'+
                   '<div class="clearfix"></div>'+

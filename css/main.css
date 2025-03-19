@@ -3572,7 +3572,7 @@ border: 1px solid black;
 
 .swiper-button-next, .swiper-button-prev {
     color: white !important;
-    font-size: 10px;
+    font-size: 10px !important;
     width: 20px;
     height: 20px;
 }
