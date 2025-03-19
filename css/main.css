@@ -3575,6 +3575,7 @@ border: 1px solid black;
     font-size: 10px !important;
     width: 20px;
     height: 20px;
+    padding: 20px;
 }
 
 
@@ -3586,7 +3587,7 @@ border: 1px solid black;
     }
 
     .slide-content {
-        height: 70vh;
+        height: 60vh;
         display: flex;
         flex-direction: column;
         align-items: center;
